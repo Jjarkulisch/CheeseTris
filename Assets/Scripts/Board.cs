@@ -18,7 +18,7 @@ public class Board : MonoBehaviour
     public PieceData[] pieces;
     public List<PieceData> bag;
     public int cheeseQueue = 0;
-    public TileBase cheeseTile;
+    public Tile cheeseTile;
     public StatCanvas statCanvas;
     public MeterGrid meterGrid;
     public NextGrid nextGrid { get; private set; }
